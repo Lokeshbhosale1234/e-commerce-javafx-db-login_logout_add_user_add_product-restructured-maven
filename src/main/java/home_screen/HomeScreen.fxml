@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home_screen.HomeScreenController">
+   <children>
+      <Label layoutX="211.0" layoutY="14.0" prefHeight="61.0" prefWidth="176.0" text="Home Screen" textFill="#fc0011">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="productmanagement" layoutX="193.0" layoutY="160.0" mnemonicParsing="false" onAction="#ProductManagementClicked" prefHeight="48.0" prefWidth="212.0" text="Product Management">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="usermanagement" layoutX="193.0" layoutY="240.0" mnemonicParsing="false" onAction="#UserManagementClicked" prefHeight="48.0" prefWidth="212.0" text="User Management">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="179.0" layoutY="92.0" prefHeight="40.0" prefWidth="240.0" text="What would you like to do ?" textFill="#fa7c00">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="logout" layoutX="194.0" layoutY="320.0" mnemonicParsing="false" onAction="#logoutClicked" prefHeight="48.0" prefWidth="212.0" text="Logout">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
